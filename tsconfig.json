@@ -1,0 +1,19 @@
+ //[no mover la configuracion, esta perfecta]
+ { 
+  "files": [],
+  "compilerOptions":{
+    "paths": {
+      "@/*": ["./src/*"], //src/*
+     /** "@components/*":["src/components/*"],
+         "@lib/*":["src/lib/*"], 
+         "@/context": ["src/context"],
+         "@/lib": ["src/lib"], 
+         "@/hooks": ["src/hooks"],     **/
+    }
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+  
+}
